@@ -37,6 +37,31 @@ O repositório foi criado para demonstrar e praticar conceitos fundamentais de a
 └── test-results/
 ```
 
+## Aplicação utilizada nos testes
+
+A suíte de automação foi executada na aplicação demo de e-commerce LambdaTest, disponível em https://ecommerce-playground.lambdatest.io. A aplicação oferece cenários reais de interação web, como login, cadastro de conta e validação de páginas de sucesso, o que torna o ambiente adequado para praticar automação com Playwright.
+
+## Escopo da automação
+
+A automação contemplou os principais cenários de teste abaixo:
+
+- Verificação da disponibilidade da aplicação na página inicial de login
+- Cadastro de novo usuário em diferentes abordagens de teste
+- Validação de título e URL após o cadastro bem-sucedido
+- Uso de dados dinâmicos gerados com Faker
+- Organização dos cenários com modelagem de dados e Page Object Model (POM)
+- Execução dos testes em múltiplos navegadores e dispositivos
+
+Os casos automatizados incluem:
+
+- Teste de disponibilidade da aplicação
+- Cadastro de usuário em fluxo de registro
+- Cadastro de usuário utilizando métodos built-in do Playwright
+- Cadastro de usuário com geração automática de dados
+- Cadastro de usuário com validações de assert
+- Cadastro de usuário com modelagem de dados
+- Cadastro de usuário utilizando Page Object Model
+
 ## Pré-requisitos
 
 Antes de executar os testes, certifique-se de que sua máquina possui:
